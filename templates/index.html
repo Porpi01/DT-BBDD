@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Startups</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        /* Variables CSS que proporcionaste */
+        :root {
+            --main-gradient: linear-gradient(90deg, #1f0d1e, #070d34); /* Dark purple to dark blue */
+            --vertical-gradient: linear-gradient(180deg, #1f0d1e, #070d34);
+            --text-content: #070d34; /* Dark blue for general text */
+            --title-content: #1f0d1e; /* Dark purple for titles */
+            --light-bg: #f8f9fa; /* A very light grey for subtle contrast */
+            --white: #ffffff;
+            --accent-color: #5a2e6f; /* A color derived from the gradient for buttons/accents */
+            --accent-hover: #7b4594; /* Lighter shade for hover states */
+            --border-color: #e0e0e0;
+            --chart-text-color: #343a40; /* Darker grey for chart labels/ticks */
+        }
+
+        /* Estilos generales del cuerpo */
+        body {
+            background: var(--vertical-gradient); /* Apply vertical gradient to body for background */
+            color: var(--text-content);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh; /* Asegura que el gradiente ocupe toda la altura */
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            background-color: var(--white);
+            border-radius: 1rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* More prominent shadow for main container */
+            padding: 3rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            flex-grow: 1; /* Permite que el contenedor se expanda */
+        }
+
+        h1 {
+            color: var(--white); /* White for main dashboard title against gradient background */
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .dashboard-card {
+            background: var(--white);
+            border-radius: 0.75rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 1.5rem;
+            height: 100%; /* Ensure cards are same height */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dashboard-card h5 {
+            color: var(--title-content);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        /* Chart specific styling */
+        canvas {
+            max-height: 300px;
+        }
+
+        /* Table for contacts */
+        .table thead th {
+            background: var(--main-gradient); /* Apply main gradient to table header */
+            color: white;
+            vertical-align: middle;
+            padding: 0.75rem 1rem;
+            border-bottom: none; /* Evita doble borde con Bootstrap */
+        }
+
+        .table tbody tr {
+            transition: background-color 0.2s ease-in-out;
+        }
+        .table tbody tr:hover {
+            background-color: #f0f0f5; /* Subtle hover effect */
+        }
+        .table tbody td {
+            vertical-align: middle;
+            padding: 0.75rem 1rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: var(--accent-hover);
+        }
+
+        /* Modal styling */
+        .modal-header {
+            background: var(--main-gradient);
+            color: white;
+            border-top-left-radius: 0.75rem;
+            border-top-right-radius: 0.75rem;
+            border-bottom: none;
+        }
+        .modal-title {
+            font-weight: 600;
+        }
+        .btn-close {
+            filter: brightness(0) invert(1); /* Makes the close button white */
+            color: white; /* Bootstrap 5.3+ might need this for proper color */
+        }
+        .modal-content {
+            border-radius: 0.75rem;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        .modal-body {
+            padding: 2rem;
+            color: var(--text-content);
+        }
+        #modal-logo {
+            border: 1px solid var(--border-color);
+            padding: 5px;
+            background-color: var(--white);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 0.5rem;
+            max-height: 100px; /* Slightly larger logo in modal */
+            width: auto; /* Asegura que la imagen no se distorsione */
+            object-fit: contain;
+        }
+        #modal-nombre-modal { /* Renombrado para evitar conflicto con id="modal-nombre" del modal-title original */
+            color: var(--title-content);
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        #modal-sector {
+            color: var(--text-content);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .modal-body p {
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+        .modal-body p strong {
+            color: var(--title-content);
+        }
+        .chart-label {
+            font-weight: 600;
+            color: var(--white); /* Cambiado a blanco para contrastar con el fondo degradado */
+            text-align: center;
+        }
+
+        /* Mensajes de carga y error */
+        .loading-message, .error-message {
+            text-align: center;
+            grid-column: 1 / -1; /* Ocupa todo el ancho en el grid si se usa en #startup-list */
+            font-size: 1.1em;
+            padding: 20px;
+            color: #666;
+        }
+        .error-message {
+            color: #dc3545;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+        }
+        /* Ajuste para el mensaje de carga en el contenedor principal */
+        #initial-loading {
+            color: var(--white); /* Para que el texto sea visible sobre el gradiente */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <h1 class="text-center mb-5">Dashboard de Startups</h1>
+
+    <hr class="mb-5">
+    <h2 class="chart-label text-center mb-4">Análisis de Datos</h2>
+    <div class="row mb-5 g-4">
+        <div class="col-lg-6">
+            <div class="dashboard-card">
+                <h5>Distribución por Sector</h5>
+                <canvas id="sectorChart"></canvas>
+            </div>
+        </div>
+       
+        <div class="col-lg-6">
+            <div class="dashboard-card">
+                <h5>Premios Acumulados por Sector</h5>
+                <canvas id="awardsBySectorChart"></canvas>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="dashboard-card">
+                <h5>Estado de Contacto y Web</h5>
+                <canvas id="contactWebChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mb-5">
+    <h2 class="chart-label text-center mb-4">Ranking de Startups por Premios</h2>
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="dashboard-card">
+                <h5 class="mb-3">Top 5 Startups con Más Premios</h5>
+                <ul class="list-group list-group-flush" id="top-awards-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mb-5">
+    <h2 class="chart-label text-center mb-4">Contactos Rápidos</h2>
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="dashboard-card">
+                <h5 class="mb-3">Lista de Contactos</h5>
+                <div class="row mb-3 gx-3">
+                    <div class="col-md-6 mb-2 mb-md-0">
+                        <input type="text" class="form-control" id="contact-search" placeholder="Buscar por nombre o email...">
+                    </div>
+                    <div class="col-md-6">
+                        <select class="form-select" id="contact-filter-sector">
+                            <option value="">Filtrar por Sector</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nombre Startup</th>
+                                <th>Contacto Principal</th>
+                                <th>Email</th>
+                                <th>Sector</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contact-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="detalleModal" tabindex="-1" aria-labelledby="modal-nombre-modal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-nombre-modal"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex flex-column flex-md-row align-items-center mb-4">
+                    <img id="modal-logo" src="" style="width:150px; height:auto;" class="me-md-4 mb-3 mb-md-0 rounded" alt="Logo de Startup" />
+                    <div>
+                        <h5 id="modal-company-name" class="mb-0"></h5>
+                        <p class="text-muted mb-0" id="modal-sector-stage"></p>
+                    </div>
+                </div>
+                <p><strong>Descripción:</strong> <span id="modal-descripcion" class="text-break"></span></p>
+                <p><strong>Premios:</strong> <span id="modal-awards" class="text-break"></span></p>
+                <p><strong>Contacto Principal:</strong> <span id="modal-contact"></span></p>
+                <p><strong>Email:</strong> <a href="" id="modal-email" class="text-break"></a></p>
+                <p><strong>Website:</strong> <a href="" id="modal-website" target="_blank" class="text-break"></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    async function fetchData(endpoint) {
+        try {
+            const res = await fetch(endpoint);
+            if (!res.ok) throw new Error(`Error al obtener datos (${endpoint}): ${res.status}`);
+            return await res.json();
+        } catch (e) {
+            console.error(e);
+            return [];
+        }
+    }
+
+    function createChart(canvasId, labels, counts, label, type = 'bar', options = {}) {
+        const ctx = document.getElementById(canvasId).getContext('2d');
+        return new Chart(ctx, {
+            type,
+            data: {
+                labels,
+                datasets: [{
+                    label,
+                    data: counts,
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: { beginAtZero: true }
+                },
+                responsive: true,
+                ...options
+            }
+        });
+    }
+
+    async function loadCharts() {
+        // Sector Distribution
+        const sectorData = await fetchData('/api/startups/sector-distribution');
+        if (sectorData.length) {
+            createChart(
+                'sectorChart',
+                sectorData.map(i => i.sector),
+                sectorData.map(i => i.count),
+                'Cantidad de Startups'
+            );
+          
+        }
+        console.log("Sector", sectorData)
+
+       
+
+        // Awards by Sector
+        const awardsSectorData = await fetchData('/api/startups/awards-by-sector');
+        console.log("Awards", awardsSectorData)
+        if (awardsSectorData.length) {
+            createChart(
+                'awardsBySectorChart',
+                awardsSectorData.map(i => i.sector),
+                awardsSectorData.map(i => i.awardsCount),
+                'Premios Acumulados',
+                'bar',
+                { scales: { y: { beginAtZero: true, stepSize: 1 } } }
+            );
+        }
+
+        // Contact and Web Status
+        const contactWebData = await fetchData('/api/startups/contact-web-status');
+        console.log("Web", contactWebData)
+        if (contactWebData.length) {
+            createChart(
+                'contactWebChart',
+                contactWebData.map(i => i.status),
+                contactWebData.map(i => i.count),
+                'Estado Contacto y Web',
+                'pie'
+            );
+        }
+
+    }
+
+    async function loadTopAwards() {
+    const topAwards = await fetchData('/api/startups/top-awards');
+    const ul = document.getElementById('top-awards-list');
+    ul.innerHTML = '';
+
+    topAwards.forEach(item => {
+        const li = document.createElement('li');
+        li.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
+        li.textContent = item.company;
+
+        const span = document.createElement('span');
+        span.classList.add('badge', 'bg-primary', 'rounded-pill');
+        span.textContent = item.awards; // <- usar 'awards' que es lo que devuelve tu API
+
+        li.appendChild(span);
+        li.style.cursor = 'pointer';
+        li.addEventListener('click', () => showDetailModal(item));
+
+        ul.appendChild(li);
+    });
+}
+
+    let contacts = [];
+    let filteredContacts = [];
+
+    async function loadContacts() {
+        contacts = await fetchData('/api/startups/contacts');
+        filteredContacts = contacts;
+        fillContactFilterOptions();
+        renderContactsTable();
+    }
+
+    function fillContactFilterOptions() {
+        const select = document.getElementById('contact-filter-sector');
+        const sectors = [...new Set(contacts.map(c => c.sector))].sort();
+
+        select.querySelectorAll('option:not(:first-child)').forEach(o => o.remove());
+
+        sectors.forEach(sector => {
+            const opt = document.createElement('option');
+            opt.value = sector;
+            opt.textContent = sector;
+            select.appendChild(opt);
+        });
+    }
+
+    function renderContactsTable() {
+        const tbody = document.getElementById('contact-tbody');
+        tbody.innerHTML = '';
+
+        filteredContacts.forEach(c => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td><a href="#" class="contact-detail-link" data-id="${c.id}">${c.company}</a></td>
+                <td>${c.contact|| ''}</td>
+
+                <td>${c.email || ''}</td>
+                <td>${c.sector || ''}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+
+        document.querySelectorAll('.contact-detail-link').forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const id = e.target.dataset.id;
+                const startup = contacts.find(c => c.id == id);
+                if (startup) showDetailModal(startup);
+            });
+        });
+    }
+
+    function setupFilters() {
+        const searchInput = document.getElementById('contact-search');
+        const sectorSelect = document.getElementById('contact-filter-sector');
+
+        function filter() {
+            const searchText = searchInput.value.trim().toLowerCase();
+            const selectedSector = sectorSelect.value;
+
+            filteredContacts = contacts.filter(c => {
+                const matchesSearch =
+                    c.company.toLowerCase().includes(searchText) ||
+                    (c.email && c.email.toLowerCase().includes(searchText));
+                const matchesSector = selectedSector ? c.sector === selectedSector : true;
+                return matchesSearch && matchesSector;
+            });
+
+            renderContactsTable();
+        }
+
+        searchInput.addEventListener('input', filter);
+        sectorSelect.addEventListener('change', filter);
+    }
+
+    function showDetailModal(startup) {
+        const modalTitle = document.getElementById('modal-nombre-modal');
+        const modalLogo = document.getElementById('modal-logo');
+        const modalCompanyName = document.getElementById('modal-company-name');
+        const modalSectorStage = document.getElementById('modal-sector-stage');
+        const modalDescripcion = document.getElementById('modal-descripcion');
+        const modalAwards = document.getElementById('modal-awards');
+        const modalContact = document.getElementById('modal-contact');
+        const modalEmail = document.getElementById('modal-email');
+        const modalWebsite = document.getElementById('modal-website');
+
+        modalTitle.textContent = startup.company;
+        modalLogo.src = startup.logoUrl || 'https://via.placeholder.com/150?text=No+Logo';
+        modalLogo.alt = `Logo de ${startup.company}`;
+        modalCompanyName.textContent = startup.company;
+        modalSectorStage.textContent = `${startup.sector || 'Sin sector'} - ${startup.stage || 'Sin etapa'}`;
+        modalDescripcion.textContent = startup.description || 'Sin descripción';
+        modalAwards.textContent = startup.awardsCount !== undefined ? startup.awardsCount : '0';
+        modalContact.textContent = startup.contactPerson || 'No disponible';
+
+        if (startup.email) {
+            modalEmail.textContent = startup.email;
+            modalEmail.href = `mailto:${startup.email}`;
+        } else {
+            modalEmail.textContent = '';
+            modalEmail.removeAttribute('href');
+        }
+
+        if (startup.website) {
+            modalWebsite.textContent = startup.website;
+            modalWebsite.href = startup.website.startsWith('http') ? startup.website : 'http://' + startup.website;
+        } else {
+            modalWebsite.textContent = '';
+            modalWebsite.removeAttribute('href');
+        }
+
+        const detalleModal = new bootstrap.Modal(document.getElementById('detalleModal'));
+        detalleModal.show();
+    }
+
+    (async function init() {
+        await loadCharts();
+        await loadTopAwards();
+        await loadContacts();
+        setupFilters();
+    })();
+});
+
+
+</script>
+
+</body>
+</html>

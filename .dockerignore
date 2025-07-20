@@ -1,0 +1,6 @@
+/images/
+/venv/
+.gitignore
+web_scraping.ipynb
+collections_from_mongo.ipynb
+mongo.ipynb
