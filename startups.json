@@ -1,0 +1,1172 @@
+[
+    {
+        "company": "EDUCAYA",
+        "description": "EDUCAYA es una empresa especializada en la innovación educativa, ofreciendo soluciones tecnológicas para el aprendizaje.",
+        "sector": "Educación",
+        "website": "educaya.es",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "",
+        "contact": "ALICIA APARISI",
+        "jobTitle": "co-founder",
+        "email": "alicia.aparisi@gmail.com",
+        "submissionTime": "March 20, 2025 4:39 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Faa42a7b0-64d1-4ce3-9bc5-6b97893f6e6e%2FCapturaTeTantallaT025-03-25T53018.png/size/w=50?exp=1752942220&sig=7k-M4-VlWd7NElnpXLadsojGnpUFo9EuahN0yxtmKnk&id=1bdcf8b7-c83c-8189-8ffe-edd3c58881aa&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Voicit",
+        "description": "Voicit es la herramienta basada en IA para consultoras de RRHH que permite analizar entrevistas de forma rápida y eficiente.",
+        "sector": "RRHH, IA, SaaS",
+        "website": "voicit.es/",
+        "stage": "Seed",
+        "roundsRaised": "1",
+        "awards": "Talent Summit, La Opinión",
+        "contact": "Álvar",
+        "jobTitle": "CEO",
+        "email": "alvaroarres@voicit.com",
+        "submissionTime": "March 20, 2025 5:19 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Fe798da74-fcac-4a8c-bf1f-a0c6769b3909%2FCapturaTeTantallaT025-03-25T53245.png/size/w=50?exp=1752942258&sig=dT1d53P1Ke7LccUiTgJvxj-R-YZswZ41EOJ94NRDmA&id=1bccf8b7-c83c-81c8-8497-e9f1c770796a&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Kimera",
+        "description": "Kimera es un SaaS B2B para la búsqueda y recomendación de productos eCommerce mediante tecnologías de IA.",
+        "sector": "Software",
+        "website": "kimeratechnologies.com/",
+        "stage": "Seed",
+        "roundsRaised": "1",
+        "awards": "Mejor Iniciativa emprendedora (Premio Aitex 2022), CDTi Neotec (2023)",
+        "contact": "Carles Igual",
+        "jobTitle": "co-founder",
+        "email": "carles@kimeratechnologies.com",
+        "submissionTime": "March 20, 2025 4:39 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F0f93767a-2352-4dc9-b5ff-561f9c3774a0%2FCapturaTeTantallaT025-03-25T53323.png/size/w=50?exp=1752942523&sig=IJ5LTBVobk83ZZZrmg87EbLhznC1PuBTPI8GRzOT&id=1bccf8b7-c83c-8176-8baa-e73f7dfa8afc&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "VENTUREST",
+        "description": "Somos un Partner Digital. En Venturest ayudamos como un facilitador estratégico en la digitalización.",
+        "sector": "Consultoría IT",
+        "website": "venturest.app/",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "https://forinvest.feriavalencia.com/venturest-desarrolla-una-plataform…",
+        "contact": "Javier Hernández",
+        "jobTitle": "CEO",
+        "email": "info@venturest.es",
+        "submissionTime": "March 20, 2025 4:27 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F2e7a8fb3-5c92-4253-a2d3-517fe58ba49d%2FVENTU.jpg/size/w=50?exp=1752942592&sig=KCZJ4eQGlN9Fz66UzgUhiZWVitvkZ0T-eEMOotjIOT&id=1bccf8b7-c83c-8137-ac48-d85da61b1705&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "ImpactE",
+        "description": "Soluciones para la planificación, promoción y gestión de instalaciones de energía renovable.",
+        "sector": "Energía",
+        "website": "urbanimpacte.com",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "NEOTEC, mejor startup Govtech, más de 2M€ de ingreso acumulado entre proyectos.",
+        "contact": "Carlos Prades Gil",
+        "jobTitle": "consejero delegado",
+        "email": "carlos.prades@urbanimpacte.com",
+        "submissionTime": "March 20, 2025 12:32 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F24cfd771-322a-4963-ab99-d14e7ff81a82%2FCapturaTeTantallaT025-03-25T52805.png/size/w=50?exp=1752942629&sig=T-s7QwXMTT8IXpDjTtJBWs0r9iaKI14ATi7XoYdE&id=1bccf8b7-c83c-81fb-bea3-f200ae8cde2d&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "MIOBIO",
+        "description": "Transformamos datos médicos en menús personalizados listos para comer, optimizando salud y rendimiento.",
+        "sector": "Deporte y alimentación personalizada",
+        "website": "miobiosport.com/",
+        "stage": "Seed",
+        "roundsRaised": "1",
+        "awards": "No",
+        "contact": "Sergio",
+        "jobTitle": "CEO",
+        "email": "sergio@miobiosport.com",
+        "submissionTime": "March 20, 2025 11:51 AM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Fa92c4f91-c0da-416a-9eb3-4aeafdcf3be5%2FCapturaTeTantallaT025-03-25T54444.png/size/w=50?exp=1752942692&sig=PU0NIMXSNFShaG3O6ioYnIHgpuQXkbJvma3RVknWzLI&id=1bccf8b7-c83c-81d7-9f55-d53e546c1adc&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Clunnity",
+        "description": "Software para clubes de fútbol.",
+        "sector": "Sportstech",
+        "website": "clunnity.com",
+        "stage": "Pre-Seed",
+        "roundsRaised": "1",
+        "awards": "Finalista Valencia CF Innovation Hub",
+        "contact": "Sergio Navarro",
+        "jobTitle": "CEO",
+        "email": "sergio@clunnity.com",
+        "submissionTime": "March 18, 2025 6:44 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Ff657f354-a0fd-4765-b4f6-67adb8088557%2FCapturaTeTantallaT025-03-25T53956.png/size/w=50?exp=1752942988&sig=tHN8qhJRzYOA0SYf2rKUqc563YiNQZ2nef4wkm7u8t4&id=1bacf8b7-c83c-81a2-8e94-f6d8929c7c02&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "ECKLETE COOP. V.",
+        "description": "ECKLETE es una cooperativa de innovación que busca contribuir a alcanzar un futuro sostenible.",
+        "sector": "Energía, arquitectura, planificación energética urbana, cooperación",
+        "website": "ecklete.coop",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "I Premio en la categoría MathUp de la Misión Climática València 2030",
+        "contact": "Edu Martín Castellanos",
+        "jobTitle": "Presidente",
+        "email": "administracion@ecklete.coop",
+        "submissionTime": "March 20, 2025 10:46 AM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F18ae89a3-4635-4e84-b16b-12e6bb1bd8a7%2FCapturaTeTantallaT025-03-25T52647.png/size/w=50?exp=1752942783&sig=ytizNzw1CbnoYJpUWWsBkNQNuEjcwp3mJEn48VYueg4&id=1bccf8b7-c83c-8172-aa00-c30dd1b18234&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Verázial Labs",
+        "description": "Desarrollamos e implantamos soluciones de identificación segura de personas y objetos.",
+        "sector": "Salud / Seguridad",
+        "website": "verazial.com/en/",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "Neotec 2023 / Icex Next 2024 / Mejor Startup rePCV 2024 / Top 100 Startups",
+        "contact": "Alejandra Castillo",
+        "jobTitle": "Digital Marketing Specialist",
+        "email": "alejandra.castillo@verazial.com",
+        "submissionTime": "March 20, 2025 10:13 AM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F707ff1ed-ec6d-4959-928e-316f7a44ddfc%2FCapturaTeTantallaT025-03-25T53705.png/size/w=50?exp=1752942841&sig=UZ80upI0C7iIZTI1h3dzUXiekuvH0s0iBhwi1jwFpM&id=1bccf8b7-c83c-818b-be15-de9f1f207773&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "The Virtual Company",
+        "description": "Desarrollo de soluciones 3D y de IA para el sector de Real Estate, V-commerce e industria.",
+        "sector": "Proptech, healthcare, industrial",
+        "website": "vcompany.co",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "Comunidad de Madrid, Lanzadera, Acelera Startups, Etiopía Zaragoza, Xtrartup",
+        "contact": "Adrian Posada",
+        "jobTitle": "CEO",
+        "email": "Aposada@vcompany.co",
+        "submissionTime": "March 19, 2025 12:44 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Fd77ab2df-2c77-4977-ace9-7182af07c628%2FCapturaTeTantallaT025-03-25T53737.png/size/w=50?exp=1752942906&sig=8OkMwGPA66qz9IZGDnvJNfb393m7bQl8hGkCoC4n8ns&id=1bbcf8b7-c83c-8169-8652-dbf1f9dc6058&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Compartir Espacios (Kyoyu labs SL)",
+        "description": "Compartir Espacios es una plataforma que conecta profesionales con espacios de trabajo flexibles.",
+        "sector": "PropTech (Property Technology)",
+        "website": "compartirespacios.com/",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "0",
+        "contact": "Nacha Ruvira",
+        "jobTitle": "CEO",
+        "email": "info@compartirespacios.com",
+        "submissionTime": "May 23, 2025 4:11 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F0a45c70f-4722-497a-8dbb-9bd1f644bd95%2FIMGT552.png/size/w=50?exp=1752943038&sig=ff6S5UWiCjWk3gsqmN22aEjGOMI0LP37P4itxFnoZWI&id=1fccf8b7-c83c-817f-9be1-e0d0aea28915&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Colibid",
+        "description": "Colibid es una fintech española. Hemos desarrollado la primera plataforma de subastas de hipotecas, que permite a los clientes recibir ofertas hipotecarias personalizadas y precisas en minutos, mientras les ayuda a acceder fácilmente a los documentos requeridos por los bancos. Esto ahorra tiempo y dinero a los clientes. Ayudamos a los bancos a trabajar de manera más eficiente, proporcionando clientes de alta calidad y filtrados de manera completamente automatizada.También ofrecemos una tecnología basada en IA (Extracto.io) capaz de procesar documentos (sin importar su estructura o idioma) y convertirlos en datos en segundos, transfiriéndolos a cualquier sistema CRM o ERP a través de API.",
+        "sector": "Fintech",
+        "website": "colibid.com",
+        "stage": "Seed",
+        "roundsRaised": "Pre-seed y seed. €1,3m en total",
+        "awards": "Top 10 Fin-Tech en South Summit 2022 - Top 10 Start-up en Premio El Referente 2022 - Ganador de la Mejor Innovación en el Global Forum Open Banking 2022 - Ganador de la startup más innovadora en Finnovati ng 2022 - Ganador de Top Startup 2022 en Finnovati ng 2022 - Top 3 de aplicaciones en E-Show Barcelona 2022 - Tercer Lugar Premio Emprende XXII CaixaBank 2023 (Comunidad Valenciana) - Las 10 mejores startups de tecnología fi nanciera en 4YFN 2024 en Barcelona - Tercer Lugar Premio Emprende XXI CaixaBank 2024 (Comunidad Valenciana) - Ganador Premio Emprende XXI CaixaBank 2024 (toda España)",
+        "contact": "Jack O'Grady",
+        "jobTitle": "COO",
+        "email": "jack@colibid.com",
+        "submissionTime": "April 23, 2025 5:10 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F13d86847-e24a-4d20-862f-1fc3b35e0199%2FCapturaTeTantallaT025-04-29T12526.png/size/w=50?exp=1752943123&sig=n3W72NF0UYLTyPiBqcv9eqHsMljmbMDvsU98NzVf8-Y&id=1decf8b7-c83c-811f-9e30-f58b67727a39&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Emendu",
+        "description": "Emendu potencia a las pymes facilitando la incorporación y gestión tecnológica de forma ágil. Mediante su SaaS All-in-One, las pymes (entre 10 y 500 empleados) gestionan los dispositivos de su empresa. Renting de tecnología, IT support IA y gestión remota de dispositivos, todo en una plataforma integral que hace su vida más sencilla.",
+        "sector": "SaaS B2B, Future of work, SMB focused",
+        "website": "emendu.com/",
+        "stage": "Seed",
+        "roundsRaised": "2",
+        "awards": "Selección Seed Rocket, Google for Startups, Decelera",
+        "contact": "Aldebarán",
+        "jobTitle": "Founder",
+        "email": "abermell@emendu.com",
+        "submissionTime": "April 9, 2025 4:36 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F0b9f0868-a96f-43c0-8a49-05850e96beee%2FCapturaTeTantallaT025-04-25T12952.png/size/w=50?exp=1752943193&sig=DHnPP0CnkyOgUXQEORGgoYoOXyq2Nh-CpeiurcHZRFc&id=1d0cf8b7-c83c-818a-9154-e44e77ccdeba&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Umibots",
+        "description": "Umibots desarrolla soluciones de robótica autónoma en el ámbito de la limpieza urbana y de playas",
+        "sector": "Robótica",
+        "website": "umibots.eu/",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "Premio a la empresa innovación y turismo por ayuntamiento de Valencia",
+        "contact": "Clodoaldo Gonzalez Fernández",
+        "jobTitle": "CEO",
+        "email": "clodo.gonzalez@umibots.eu",
+        "submissionTime": "April 8, 2025 1:42 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Ffe03fa9e-964b-4175-832b-2987f5972dde%2FScreenshotT025-04-29T74525.png/size/w=50?exp=1752943239&sig=TRRxS-j68SKTvugSQh5vTuGAeSPY22VU05J87ArrGY&id=1cfcf8b7-c83c-815c-a0e8-c72be3547823&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Kenko Imalytics S.L.",
+        "description": "Ayudamos al diagnóstico del cáncer que hacen los radiólogos a través de una plataforma que facilita la interpretación de las resonancias.",
+        "sector": "medtech",
+        "website": "biopsiavirtual.com/",
+        "stage": "Pre-Seed",
+        "roundsRaised": "2",
+        "awards": "XXI Premio Consejo Social UPV 2022,   XVI Premio IDEAS UPV 2022,  Premio 5U-CV STARTUP 2024",
+        "contact": "Gabriel Bestard Ribas",
+        "jobTitle": "CEO",
+        "email": "gabriel.bestard@kenkoimalytics.es",
+        "submissionTime": "April 8, 2025 12:56 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Fff6df31c-f428-4268-a2db-b1b7862a1415%2FScreenshotT025-04-29T74824.png/size/w=50?exp=1752943304&sig=U35gvxvVpcfslsrV6IewYWbyRVKBUcTATHNIsi793o&id=1cfcf8b7-c83c-8196-ba6c-cca9f4462fa2&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "SimZero",
+        "description": "Modelos virtuales científicos que replican la realidad en tiempo real con IA para la Industria 5.0 y ciudades inteligentes.",
+        "sector": "Multisectorial",
+        "website": "simzero.com",
+        "stage": "Pre-Seed",
+        "roundsRaised": "0",
+        "awards": "HackerNoon Startups of The Year 2024",
+        "contact": "Carlos Peña Monferrer",
+        "jobTitle": "CEO & Co-Fundador",
+        "email": "carlos@simzero.com",
+        "submissionTime": "April 8, 2025 10:56 AM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Ff3c8d19c-5b07-41c7-828a-ca222f4b3edb%2FScreenshotT025-04-29T80411.png/size/w=50?exp=1752943345&sig=J54CYbfAKyTEELixFPx6g5WthrOCientGtArDf08vhk&id=1cfcf8b7-c83c-812c-b4b9-c58beadcaf04&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "EBHealth3",
+        "description": "Wellness Watcher es una experiencia de tranquilidad, seguridad, control y prevención en la salud digestiva de las personas",
+        "sector": "Health Tech",
+        "website": "wellnesswatcher.ai/",
+        "stage": "Pre-Seed",
+        "roundsRaised": "0",
+        "awards": "Ganadores categoria Salud y Bienestar de los Premios a la innovación València Innovation Capital 2024.  Ganadores categoria Seed VIII Premios VLC Startup Awards. Ganadores XVII EDICIÓN PREMIOS IDEAS UPV 2023 categoría Lean",
+        "contact": "Pablo Gonzalez Garcia",
+        "jobTitle": "CEO",
+        "email": "pg@ebhealth3.es",
+        "submissionTime": "April 8, 2025 7:42 AM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F1073db04-8598-4274-a5ff-cf99ff0f1f3b%2FEBHealth3TOGOTinTondo.png/size/w=50?exp=1752943399&sig=ZCd5aA-hYl8Meh-AXKkcKE9MHSY18jvle9PZqQONNgU&id=1cfcf8b7-c83c-812d-ad2a-f2545c8e8790&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Fresh People",
+        "description": "HR Saas B2B Software & Services",
+        "sector": "hR",
+        "website": "FreshPeople.team",
+        "stage": "Seed",
+        "roundsRaised": "1",
+        "awards": "Best HR Startup Company in Europe",
+        "contact": "Jose",
+        "jobTitle": "CEO",
+        "email": "Jose@freshpeople.team",
+        "submissionTime": "April 8, 2025 1:10 AM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F5feb43f5-57e6-46d4-beb5-9f0ffc69c9ba%2FFreshPeopleTogotipoTzul.png/size/w=50?exp=1752943448&sig=qGcshzKnpGHBnzh1NTTdkmvR7HPWOFxmBZ5xYg8BTg&id=1cecf8b7-c83c-81d8-bd36-d0d2d96173c8&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Crowmie",
+        "description": "Permitimos que empresas realicen la transición energética a coste 0 mientras que los inversores que participan en los proyectos que se instalan en estas reciben una rentabilidad del 9%",
+        "sector": "Fintech Greentech",
+        "website": "crowmie.com",
+        "stage": "Seed",
+        "roundsRaised": "2",
+        "awards": "Forbes: Reconocmiento especial Startup, VSA: mejor startup seed 2024, The Gap In Between: Ganador en Financial Innovation for the common good, UNEF: Segundo premio Startup Solar, ElMundo & Caixabank: premio a las mejores 100 ideas de 2023, II Financial Adwards: Iniciativa más sostenible",
+        "contact": "Pablo Valverde",
+        "jobTitle": "CMO y cofounder",
+        "email": "pablovalverde@crowmie.com",
+        "submissionTime": "April 7, 2025 4:54 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Fefb9faa5-b619-4996-ae4c-e555838c2ece%2FScreenshotT025-04-29T80219.png/size/w=50?exp=1752943501&sig=paG04GZAiWMx9ZsyWUSWSPL5doht-U1CuIOiL71CCes&id=1cecf8b7-c83c-8133-8e74-d5c37aeb541c&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Amaia Cuida",
+        "description": "Amaia Cuida es la herramienta para personalizar los cuidados en centros sociosanitarios a través de la IA. La estandarización de los cuidados está quedando atrás gracias a la metodología de la Atención Centrada en la Persona (ACP), donde se sitúa a la persona en el centro a fin de cumplir con sus deseos y necesidades, es decir, personalizar sus cuidados. Esta metodología trae una nueva manera de trabajar y nuevas tareas. Pero, aquí nos encontramos con el principal pain de los centros sociosanitarios: el tiempo (malos ratios, rotación de personal, tareas administrativas, etc). Aquí es donde nace Amaia, la herramienta que ayuda a los centros sociosanitarios a realizar todas las tareas relacionadas con la ACP con un solo clic (Historias de Vida, preferencias, pictogramas, seguimientos). Y, lo más interesante es que nuestra IA analiza toda esta información de carácter psicosocial y la transforma en un plan de cuidados individualizado para cada una de las personas. ",
+        "sector": "Salud",
+        "website": "https://www.amaiacuida.com/",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "Finalistas Social Innovation Awards, ganadores Savia Innovación, finalistas Talento Jóven Levante, etc",
+        "contact": "Lucía Villanueva",
+        "jobTitle": "Co-founder y CMO",
+        "email": "luciav@amaia-app.com",
+        "submissionTime": "March 24, 2025 12:05 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Ff86129db-eb20-49ba-8461-d34292f9274b%2F1234567.png/size/w=50?exp=1752943672&sig=doE2VStJOC7qrP5DAWuPVA8gGnuMuZtK12E-ITyKjA&id=1c0cf8b7-c83c-81f6-a4d5-e4046465898b&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "BATTERYFLY SMART ENERGY",
+        "description": "Batteryfly es una compañía dedicada a la gestión de las baterías de movilidad tras su descarte en el uso del vehículo, o deficiencias en sus procesos productivos, dándole una segunda vida en entornos de movilidad y energía. Transformamos las baterías usadas para lograr nuevos productos que estén apoyados por energías sostenibles, y permitan el máximo aprovechamiento de los recursos ya empleados previamente.",
+        "sector": "Energía y Movilidad",
+        "website": "www.batteryfly.es",
+        "stage": "Seed",
+        "roundsRaised": "1 ronda de 500.000 €",
+        "awards": "",
+        "contact": "JAVIER ALCALÁ ESTERLICH",
+        "jobTitle": "CEO",
+        "email": "jalcala@batteryfly.es",
+        "submissionTime": "April 7, 2025 3:21 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F58835205-334d-4fd5-ab15-f8022d77b77a%2F3.png/size/w=50?exp=1752943845&sig=7TlxJQz2nEX6LyFbdtvBxqDdZkYdZdOkLvTtTPvlis&id=1cecf8b7-c83c-81f7-bf45-dc258ddbe51f&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Mentelem - Mental health at work",
+        "description": "Mentelem es un software de salud mental para empresas que evalúa, previene y acompaña el bienestar emocional en el trabajo.",
+        "sector": "eHealth / HR Tech",
+        "website": "mentelem.com/",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "Premio Nacional de Psicología 2023, Premio al emprendimiento social en…",
+        "contact": "Alejandro Pereira",
+        "jobTitle": "CEO y Founder",
+        "email": "alejandro@mentelem.com",
+        "submissionTime": "March 22, 2025 1:28 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F6344ca6f-7621-4b40-bf92-885f53445cd3%2FCapturaTeTantallaT025-03-25T54718.png/size/w=50?exp=1752944063&sig=wpid44GosgiPTWFjT7hIrr3Lk6FpRpBsmT99oFqEGI&id=1becf8b7-c83c-8168-b350-f8b1be7294d5&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "GPTadvisor",
+        "description": "GPTadvisor es una startup tecnológica, fundada en 2023, que aplica IA para asesoramiento financiero personalizado.",
+        "sector": "Wealthtech",
+        "website": "gptadvisor.com/",
+        "stage": "Seed",
+        "roundsRaised": 1,
+        "awards": "N/A",
+        "contact": "Isabel Forniés",
+        "jobTitle": "COO & Co-founder",
+        "email": "ifornies@gptadvisor.com",
+        "submissionTime": "March 24, 2025 1:29 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2Fed82a92a-80e1-493a-b5c4-f33d6b44c741%2FLogosTPTadvisor.png/size/w=50?exp=1752944101&sig=gPyUMsk2mrzh6TuQWx87hjlGZt0JsnIFxopGByQfJI&id=1c0cf8b7-c83c-812b-888e-c527de78f262&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Your Friends Are Boring",
+        "description": "Viajes en grupo para desconocidos que comparten intereses similares.",
+        "sector": "TravelTech",
+        "website": "yourfriendsareboring.com/",
+        "stage": "Pre-Seed",
+        "roundsRaised": 0,
+        "awards": "Reconocidos por la lista Forbes 100 Most Creative People in Business; …",
+        "contact": "Clara Haba",
+        "jobTitle": "CEO",
+        "email": "hello@yourfriendsareboring.com",
+        "submissionTime": "March 24, 2025 4:23 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F1f60a39b-2d2c-4e20-83ac-5b492822e39a%2FCapturaTeTantallaT025-03-25T52517.png/size/w=50?exp=1752944140&sig=bAew7T7TVfbY1HIpT7HAUJ6oVvrXHqh4c1NaY79Gc&id=1c0cf8b7-c83c-8197-89e8-c09a69b554e3&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Feending",
+        "description": "Un software inteligente para gestionar y dinamizar comunidades profesionales.",
+        "sector": "Software",
+        "website": "feending.com",
+        "stage": "Seed",
+        "roundsRaised": 1,
+        "awards": "Ganadores del programa de aceleración de Wayra 2024. Ganadores del programa…",
+        "contact": "Mario García-Granero",
+        "jobTitle": "CEO",
+        "email": "mario@feending.com",
+        "submissionTime": "March 24, 2025 4:39 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F0bd5e40a-ec2e-432f-a72e-11b02a1a4ab5%2FCapturaTeTantallaT025-03-25T52405.png/size/w=50?exp=1752944175&sig=BjLv4h4hrSA3Phf2gxT60GbE05W68DTSfNzSLnSSU8&id=1c0cf8b7-c83c-81d8-a674-c16ef7c4beb3&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    },
+    {
+        "company": "Celentis",
+        "description": "Celentis es una empresa especializada en soluciones de detección y análisis químico, especialmente orientadas al ámbito de la seguridad y la salud pública. Se centra en el desarrollo de sistemas de detección de drogas ilícitas y otras sustancias mediante materiales híbridos y sensores químicos, apostando por productos de bajo coste, portátiles y de respuesta rápida.",
+        "sector": "Salud y seguridad",
+        "website": "https://celentis.bio/es/inicio/",
+        "stage": "Seed",
+        "roundsRaised": "0",
+        "awards": "Premio 5UCV Junior 2023, Premio concurso de emprendimiento ideas de negocio UVEmpren 2023, , premio Spin UPV 2023, Premio mejor idea de negocio en fase avanzada UV 2024.",
+        "contact": "Luis Antonio Morró González",
+        "jobTitle": "CEO",
+        "email": "lmorro@trl.plus",
+        "submissionTime": "April 7, 2025 4:26 PM",
+        "respondent": "Anónimo",
+        "logo": "https://img.notionusercontent.com/s3/prod-files-secure%2F72ca6304-e33b-4a41-a30c-f2f25eed0ab9%2F6c76438c-58d7-478a-b0c1-919eb4b80e74%2FScreenshotT025-04-29T80952.png/size/w=50?exp=1752944650&sig=MGyvNTzUV6qq1D4ntWvJsjUC0cYTkszT8-CpxtjnE&id=1cecf8b7-c83c-8149-b1b6-c98588aea3d0&table=block",
+        "hoursMentor": [
+            {
+                "mentorName": "Aktion Legal",
+                "hours": 0
+            },
+            {
+                "mentorName": "We Tangible",
+                "hours": 0
+            },
+            {
+                "mentorName": "VPL Tech",
+                "hours": 0
+            },
+            {
+                "mentorName": "Finded",
+                "hours": 0
+            },
+            {
+                "mentorName": "Audax Studio",
+                "hours": 0
+            },
+            {
+                "mentorName": "Lanáquera",
+                "hours": 0
+            },
+            {
+                "mentorName": "Innobide",
+                "hours": 0
+            }
+        ]
+    }
+]
